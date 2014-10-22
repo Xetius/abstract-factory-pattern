@@ -1,4 +1,8 @@
 package com.xetius.patterns.afp.colour;
 
-public class Green extends Colour {
+public class Green implements Colour {
+    @Override
+    public String fill() {
+        return "Green::fill()";
+    }
 }

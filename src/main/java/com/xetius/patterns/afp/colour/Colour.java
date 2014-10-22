@@ -1,4 +1,5 @@
 package com.xetius.patterns.afp.colour;
 
-public class Colour {
+public interface Colour {
+    public String fill();
 }
